@@ -27,7 +27,7 @@ is not a valid Win32 application.
 ## Outputs
 
 `llvm-ro-{good,bad}.txt` are the outputs from `llvm-readobj.exe --all` for each
-`.pyd` file.
+`.pyd` file.  Similarly for `{good,bad}_npymath.lib`.
 
 `objdump_x_{good,bad}.txt` are the outputs from `objdump -x`.
 
